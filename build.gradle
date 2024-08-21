@@ -63,7 +63,7 @@ dependencies {
     deobfCompile "net.darkhax.gamestages:GameStages-1.12.2:2.0.114"
     deobfCompile "mezz.jei:jei_1.12.2:4.16.1.302"
     deobfCompile "net.darkhax.bookshelf:Bookshelf-1.12.2:2.3.590"
-    deobfCompile "hellfirepvp.astralsorcery:astralsorcery:1.12.2-1.10.25-v167"
+    deobfCompile "curse.maven:astral-sorcery-241721:3020755"
     deobfCompile "curse.maven:project-253449:2568751-sources-api"
     deobfCompile "CraftTweaker2:CraftTweaker2-MC1120-Main:1.12-${crafttweaker_version}"
     deobfCompile "CraftTweaker2:CraftTweaker2-API:1.12-${crafttweaker_version}"

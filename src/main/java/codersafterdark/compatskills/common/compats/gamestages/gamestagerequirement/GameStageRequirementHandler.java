@@ -4,6 +4,8 @@ import codersafterdark.reskillable.api.requirement.RequirementCache;
 import net.darkhax.gamestages.event.GameStageEvent;
 import net.darkhax.gamestages.event.StagesSyncedEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class GameStageRequirementHandler {
     @SubscribeEvent
@@ -17,6 +19,7 @@ public class GameStageRequirementHandler {
     }
 
     @SubscribeEvent
+    @SideOnly(Side.CLIENT)
     public void stagesSync(StagesSyncedEvent event) {
         RequirementCache.invalidateCache(event.getEntityPlayer(), GameStageRequirement.class);
     }
