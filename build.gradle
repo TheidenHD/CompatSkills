@@ -1,7 +1,7 @@
 buildscript {
     repositories {
-        jcenter()
-        maven { url = "http://files.minecraftforge.net/maven" }
+        mavenCentral()
+        maven { url = "https://maven.minecraftforge.net" }
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
@@ -31,7 +31,7 @@ repositories{
     }
     maven {
         name 'Darkhax'
-        url 'https://maven.mcmoddev.com/'
+        url 'https://modmaven.dev//'
     }
     maven{
         name 'JEI/Tinker'
